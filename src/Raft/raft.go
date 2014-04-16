@@ -5,11 +5,9 @@ import (
 	"time"
 	"os"
 	"strconv"
-	//"bytes"
-	//"encoding/gob"
 	"strings"
-	"kivirani/github.com/syndtr/goleveldb/leveldb"
-	"kivirani/cluster"
+	"kivirani/cloud/github.com/syndtr/goleveldb/leveldb"
+	"kivirani/cloud/cluster"
 	"math/rand"
 
 )
