@@ -2,11 +2,9 @@ package Raft
 
 
 import (
-	//"encoding/xml"
-	//"fmt"
-	//"os"
+
 	"strconv"
-	//"strings"
+	
 )
 
 type RequestVote struct {
