@@ -8,7 +8,7 @@ import (
 	"sync"
 	"net/rpc"
 	"net"
-	"kivirani/cloud/Raft"
+	"github.com/kivirani/cloud/Raft"
 
 
 )
