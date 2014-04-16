@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"encoding/gob"
 	"sync"
-	zmq "github.com/pebbe/zmq4"
+	zmq "kivirani/cloud/github.com/pebbe/zmq4"
 	"strings"
 
 )
