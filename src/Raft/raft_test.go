@@ -13,7 +13,7 @@ import (
 	"log"
 
 
-	"github.com/syndtr/goleveldb/leveldb"
+	"kivirani/github.com/syndtr/goleveldb/leveldb"
 
 )
 
