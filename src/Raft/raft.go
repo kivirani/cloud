@@ -8,7 +8,7 @@ import (
 	//"bytes"
 	//"encoding/gob"
 	"strings"
-	"github.com/syndtr/goleveldb/leveldb"
+	"kivirani/github.com/syndtr/goleveldb/leveldb"
 	"kivirani/cluster"
 	"math/rand"
 
