@@ -56,7 +56,10 @@ This package contains cluster layer which is used in making & sending & receivin
 ### The `cloud/Raft` package
 
 This package contains raft `leader election` layer which will ensure that only one leader at a time. This part simulates the `raft` protocol. The second functionality of this layer is `log replication`. Leader ensures that all the logs get replicated all across the servers and commits the entries only when majority of the servers got these log entries.
- 
+
+### The client
+The current client program is embedded in `raft.go` (function name-`startReceivingClientRequests()`) . After going to leader phase it starts running and stops when leader  goes to another phase(follower). 
+
 # How it works
 For each server a `main` program initializes the server. This program by using `raft` package creates the raft instance and starts its execution. The raft instance created will eventually create the `cluster` instance which will bind network socket with each raft instance.
 
