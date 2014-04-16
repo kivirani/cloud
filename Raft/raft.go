@@ -9,7 +9,7 @@ import (
 	//"encoding/gob"
 	"strings"
 	"github.com/syndtr/goleveldb/leveldb"
-	"kivirani/cloud/cluster"
+	"github.com/kivirani/cloud/cluster"
 	"math/rand"
 
 )
