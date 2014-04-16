@@ -3,7 +3,7 @@ cloud
 
 Contains base layer for cloud- raft and cluster
 
-`cloud` is a golang code - a raft protocol code which simulates the behaviour of [raft](https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensus-protocol) election protocol. It consists of number of components. My current implementation contains 5 servers which are connected to each other. The leader election part of raft ensures there is only one leader. And leader will perform all write operations requested by clients. Clients must request server for performing the operation. In my current implementation, server accepts only set operations and I haven't care about the get operations. The get operations can be served by any server inn the network. The cluster layer at the bottom of the hierarchy is used for basic server communication.   
+`cloud` is a golang code - a raft protocol code which simulates the behaviour of [raft](https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensus-protocol) protocol. It consists of number of components. My current implementation contains 5 servers which are connected to each other. The leader election part of raft ensures there is only one leader. And leader will perform all write operations requested by clients. Clients must request server for performing the operation. In my current implementation, server accepts only set operations and I haven't care about the get operations. The get operations can be served by any server inn the network. The cluster layer at the bottom of the hierarchy is used for basic server communication.   
 
 #Usage
 
