@@ -1,0 +1,8 @@
+=============== Apr 16, 2014 (IST) ===============
+17:37:37.152434 db@open opening
+17:37:37.152558 journal@recovery F·1
+17:37:37.156795 journal@recovery recovering @15
+17:37:37.159300 db@janitor F·5 G·0
+17:37:37.159325 db@open done T·6.852ms
+17:37:37.165491 db@close closing
+17:37:37.165532 db@close done T·38us
