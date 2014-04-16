@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serverinfo>
+	<servermeta>
+		<servercount>5</servercount>
+	</servermeta>
+	<serverlist>
+		<server>
+			<id>0</id>
+			<ip>localhost</ip>
+			<port>10001</port>
+		</server>
+		<server>
+			<id>1</id>
+			<ip>localhost</ip>
+			<port>10002</port>
+		</server>
+		<server>
+			<id>2</id>			
+			<ip>localhost</ip>
+			<port>10003</port>
+		</server>
+		<server>
+			<id>3</id>
+			<ip>localhost</ip>
+			<port>10004</port>
+		</server>
+		<server>
+			<id>4</id>
+			<ip>localhost</ip>
+			<port>10005</port>
+		</server>
+	</serverlist>
+</serverinfo>
