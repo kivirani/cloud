@@ -44,9 +44,24 @@ serverid    port
 ```
 
 # Install
+Set first GOPATH variable
 
 ```
-go get github.com/RahulWaniIITB/cloud
+$export GOPATH=/path/
+
+```
+Install required repositories first 
+
+```
+$go get github.com/pebbe/zmq4
+$go get github.com/syndtr/goleveldb/leveldb
+
+```
+
+And then upload this repository using
+
+```
+go get github.com/kivirani/cloud
 
 ```
 ### The `cloud/cluster` package
