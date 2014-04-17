@@ -109,14 +109,6 @@ tmp$go run tmp_db_read.go 0
 ```
 Here the '0' is the PID of the server.
 
-### The `cloud/Raft/main`
-This folder contains main.go file and executable file `main` of main.go. If you want to run this program you can run it by using the following command.
-
-```
-main$ go build
-Raft$ ./main/main 0 /path/src
-```
-The '/path' is the the gopath.
 
 ### The client
 The current client program is embedded in `raft.go` (function name-`startReceivingClientRequests()`) . After going to leader phase it starts running and stops when leader  goes to another phase(follower). 
